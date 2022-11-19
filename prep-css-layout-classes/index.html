@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+      background-color:seashell;
+    }
+
+    h1 {
+      text-align: center;
+
+    }
+
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+
+    img{
+      width: 100%;
+      border-radius: 3%;
+    }
+  </style>
+</head>
+<body>
+  <!-- Complete the HTML here -->
+
+  <h1>Back To The Future</h1>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="column">
+        <img src="/prep-css-layout-classes/images/bf1.jpg" alt="Back To The Future Movie Poster">
+
+        <h3>Back To The Future</h3>
+        <p>Back to the Future is a 1985 American science fiction film directed by Robert Zemeckis, and written by Zemeckis and Bob
+      Gale. It stars Michael J. Fox, Christopher Lloyd, Lea Thompson, Crispin Glover, and Thomas F. Wilson. Set in 1985, the
+      story follows Marty McFly (Fox), a teenager accidentally sent back to 1955 in a time-traveling DeLorean automobile built
+      by his eccentric scientist friend Emmett <q>Doc</q> Brown (Lloyd). While in the past, Marty inadvertently prevents his future
+      parents from falling in love—threatening his existence—and is forced to reconcile the pair and somehow get back to the
+      future.</p>
+      </div>
+      <div class="column">
+        <img src="/prep-css-layout-classes/images/bf2.jpeg" alt="Back To The Future Movie Part II Poster">
+
+        <h3>Back To The Future Part II</h3>
+        <p>Back to the Future Part II is a 1989 American science fiction film directed by Robert Zemeckis from a screenplay by Bob
+      Gale and a story by both. It is the sequel to the 1985 film Back to the Future and the second installment in the Back to
+      the Future franchise. The film stars Michael J. Fox, Christopher Lloyd, Lea Thompson, Thomas F. Wilson, Elisabeth Shue
+      (replacing Claudia Wells), and Jeffrey Weissman (replacing Crispin Glover), and follows Marty McFly (Fox) and his friend
+      Dr. Emmett <q>Doc</q> Brown (Lloyd) as they travel from 1985 to 2015 to prevent Marty's son from sabotaging the McFly
+      family's future. When their arch-nemesis Biff Tannen (Wilson) steals Doc's DeLorean time machine and uses it to alter
+      history for his benefit, the duo must return to 1955 to restore the timeline.</p>
+      </div>
+      <div class="column">
+        <img src="/prep-css-layout-classes/images/bf3.jpg" alt="Back To The Future Movie Poster Part III">
+
+        <h3>Back To The Future Part III</h3>
+        <p>Back to the Future Part III is a 1990 American science fiction Western film and the final installment of the Back to the
+      Future trilogy. The film was directed by Robert Zemeckis, and stars Michael J. Fox, Christopher Lloyd, Mary Steenburgen,
+      Thomas F. Wilson, and Lea Thompson. The film continues immediately following Back to the Future Part II (1989); while
+      stranded in 1955 during his time travel adventures, Marty McFly (Fox) discovers that his friend Dr. Emmett <q>Doc</q> Brown
+      (Lloyd), trapped in 1885, was killed by Buford <q>Mad Dog</q> Tannen (Wilson), Biff's great-grandfather. Marty travels to
+      1885 to rescue Doc and return once again to 1985, but matters are complicated when Doc falls in love with Clara Clayton
+      (Steenburgen).</p>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
